@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Js_2_11</class>
- <widget class="QMainWindow" name="Js_2_11">
+ <class>Dom_1_6</class>
+ <widget class="QMainWindow" name="Dom_1_6">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -78,7 +78,7 @@ QLabel:hover{
      <rect>
       <x>70</x>
       <y>9</y>
-      <width>531</width>
+      <width>621</width>
       <height>41</height>
      </rect>
     </property>
@@ -103,7 +103,9 @@ QLabel:hover{
      <string notr="true">font-size: 20px;</string>
     </property>
     <property name="text">
-     <string>&lt;h2&gt;Циклы while и for&lt;/h2&gt;</string>
+     <string>&lt;h2&gt;
+Атрибуты и свойства
+&lt;/h2&gt;</string>
     </property>
    </widget>
    <widget class="QScrollArea" name="scrollArea">
@@ -146,7 +148,7 @@ QLabel:hover{
        <x>0</x>
        <y>0</y>
        <width>743</width>
-       <height>8727</height>
+       <height>8233</height>
       </rect>
      </property>
      <layout class="QGridLayout" name="gridLayout_2">
@@ -167,11 +169,14 @@ QLabel:hover{
       </property>
       <item row="0" column="0">
        <widget class="QLabel" name="label_21">
+        <property name="styleSheet">
+         <string notr="true">padding-bottom: 20px</string>
+        </property>
         <property name="text">
          <string/>
         </property>
         <property name="pixmap">
-         <pixmap>learn.javascript.ru_while-for.jpg</pixmap>
+         <pixmap>learn.javascript.ru_dom-attributes-and-properties.jpg</pixmap>
         </property>
        </widget>
       </item>

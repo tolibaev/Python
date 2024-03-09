@@ -189,6 +189,7 @@ class Ui_DomWindow(object):
 ";\n"
 "}")
         self.btn_1_1.setObjectName("btn_1_1")
+        self.btn_1_1.mousePressEvent = lambda event: self.open_Dom_1_1_window(event, DomWindow)
         self.btn_1_2 = QtWidgets.QPushButton(self.centralwidget)
         self.btn_1_2.setGeometry(QtCore.QRect(450, 180, 171, 41))
         font = QtGui.QFont()
@@ -209,6 +210,7 @@ class Ui_DomWindow(object):
 ";\n"
 "}")
         self.btn_1_2.setObjectName("btn_1_2")
+        self.btn_1_2.mousePressEvent = lambda event: self.open_Dom_1_2_window(event, DomWindow)
         self.btn_1_3 = QtWidgets.QPushButton(self.centralwidget)
         self.btn_1_3.setGeometry(QtCore.QRect(630, 180, 341, 41))
         font = QtGui.QFont()
@@ -229,6 +231,7 @@ class Ui_DomWindow(object):
 ";\n"
 "}")
         self.btn_1_3.setObjectName("btn_1_3")
+        self.btn_1_3.mousePressEvent = lambda event: self.open_Dom_1_3_window(event, DomWindow)
         self.label_4 = QtWidgets.QLabel(self.centralwidget)
         self.label_4.setGeometry(QtCore.QRect(10, 400, 991, 21))
         font = QtGui.QFont()
@@ -258,6 +261,7 @@ class Ui_DomWindow(object):
 ";\n"
 "}")
         self.btn_2_1.setObjectName("btn_2_1")
+        self.btn_2_1.mousePressEvent = lambda event: self.open_Dom_2_1_window(event, DomWindow)
         self.btn_1_4 = QtWidgets.QPushButton(self.centralwidget)
         self.btn_1_4.setGeometry(QtCore.QRect(20, 230, 381, 41))
         font = QtGui.QFont()
@@ -278,6 +282,7 @@ class Ui_DomWindow(object):
 ";\n"
 "}")
         self.btn_1_4.setObjectName("btn_1_4")
+        self.btn_1_4.mousePressEvent = lambda event: self.open_Dom_1_4_window(event, DomWindow)
         self.btn_1_5 = QtWidgets.QPushButton(self.centralwidget)
         self.btn_1_5.setGeometry(QtCore.QRect(410, 230, 431, 41))
         font = QtGui.QFont()
@@ -298,6 +303,7 @@ class Ui_DomWindow(object):
 ";\n"
 "}")
         self.btn_1_5.setObjectName("btn_1_5")
+        self.btn_1_5.mousePressEvent = lambda event: self.open_Dom_1_5_window(event, DomWindow)
         self.btn_1_6 = QtWidgets.QPushButton(self.centralwidget)
         self.btn_1_6.setGeometry(QtCore.QRect(20, 280, 251, 41))
         font = QtGui.QFont()
@@ -318,6 +324,7 @@ class Ui_DomWindow(object):
 ";\n"
 "}")
         self.btn_1_6.setObjectName("btn_1_6")
+        self.btn_1_6.mousePressEvent = lambda event: self.open_Dom_1_6_window(event, DomWindow)
         self.btn_1_7 = QtWidgets.QPushButton(self.centralwidget)
         self.btn_1_7.setGeometry(QtCore.QRect(280, 280, 261, 41))
         font = QtGui.QFont()
@@ -338,6 +345,7 @@ class Ui_DomWindow(object):
 ";\n"
 "}")
         self.btn_1_7.setObjectName("btn_1_7")
+        self.btn_1_7.mousePressEvent = lambda event: self.open_Dom_1_7_window(event, DomWindow)
         self.btn_1_8 = QtWidgets.QPushButton(self.centralwidget)
         self.btn_1_8.setGeometry(QtCore.QRect(550, 280, 201, 41))
         font = QtGui.QFont()
@@ -358,6 +366,7 @@ class Ui_DomWindow(object):
 ";\n"
 "}")
         self.btn_1_8.setObjectName("btn_1_8")
+        self.btn_1_8.mousePressEvent = lambda event: self.open_Dom_1_8_window(event, DomWindow)
         self.btn_1_10 = QtWidgets.QPushButton(self.centralwidget)
         self.btn_1_10.setGeometry(QtCore.QRect(20, 330, 371, 41))
         font = QtGui.QFont()
@@ -378,6 +387,7 @@ class Ui_DomWindow(object):
 ";\n"
 "}")
         self.btn_1_10.setObjectName("btn_1_10")
+        self.btn_1_10.mousePressEvent = lambda event: self.open_Dom_1_10_window(event, DomWindow)
         self.btn_1_11 = QtWidgets.QPushButton(self.centralwidget)
         self.btn_1_11.setGeometry(QtCore.QRect(400, 330, 371, 41))
         font = QtGui.QFont()
@@ -398,6 +408,7 @@ class Ui_DomWindow(object):
 ";\n"
 "}")
         self.btn_1_11.setObjectName("btn_1_11")
+        self.btn_1_11.mousePressEvent = lambda event: self.open_Dom_1_11_window(event, DomWindow)
         self.btn_1_9 = QtWidgets.QPushButton(self.centralwidget)
         self.btn_1_9.setGeometry(QtCore.QRect(760, 280, 171, 41))
         font = QtGui.QFont()
@@ -418,6 +429,7 @@ class Ui_DomWindow(object):
 ";\n"
 "}")
         self.btn_1_9.setObjectName("btn_1_9")
+        self.btn_1_9.mousePressEvent = lambda event: self.open_Dom_1_9_window(event, DomWindow)
         self.btn_2_2 = QtWidgets.QPushButton(self.centralwidget)
         self.btn_2_2.setGeometry(QtCore.QRect(400, 430, 281, 41))
         font = QtGui.QFont()
@@ -438,6 +450,7 @@ class Ui_DomWindow(object):
 ";\n"
 "}")
         self.btn_2_2.setObjectName("btn_2_2")
+        self.btn_2_2.mousePressEvent = lambda event: self.open_Dom_2_2_window(event, DomWindow)
         self.btn_2_3 = QtWidgets.QPushButton(self.centralwidget)
         self.btn_2_3.setGeometry(QtCore.QRect(690, 430, 281, 41))
         font = QtGui.QFont()
@@ -458,6 +471,7 @@ class Ui_DomWindow(object):
 ";\n"
 "}")
         self.btn_2_3.setObjectName("btn_2_3")
+        self.btn_2_3.mousePressEvent = lambda event: self.open_Dom_2_3_window(event, DomWindow)
         self.btn_2_4 = QtWidgets.QPushButton(self.centralwidget)
         self.btn_2_4.setGeometry(QtCore.QRect(20, 480, 381, 41))
         font = QtGui.QFont()
@@ -478,6 +492,7 @@ class Ui_DomWindow(object):
 ";\n"
 "}")
         self.btn_2_4.setObjectName("btn_2_4")
+        self.btn_2_4.mousePressEvent = lambda event: self.open_Dom_2_4_window(event, DomWindow)
         self.btn_2_5 = QtWidgets.QPushButton(self.centralwidget)
         self.btn_2_5.setGeometry(QtCore.QRect(410, 480, 421, 41))
         font = QtGui.QFont()
@@ -498,6 +513,7 @@ class Ui_DomWindow(object):
 ";\n"
 "}")
         self.btn_2_5.setObjectName("btn_2_5")
+        self.btn_2_5.mousePressEvent = lambda event: self.open_Dom_2_5_window(event, DomWindow)
         DomWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(DomWindow)
@@ -533,6 +549,120 @@ class Ui_DomWindow(object):
         self.ui.setupUi(self.main_window)
         self.main_window.show()
         DomWindow.close()
+
+    def open_Dom_1_1_window(self, event, DomWindow):
+        self.main_window = QtWidgets.QMainWindow()
+        self.ui = Ui_Dom_1_1()
+        self.ui.setupUi(self.main_window)
+        self.main_window.show()
+        DomWindow.close()
+
+    def open_Dom_1_2_window(self, event, DomWindow):
+        self.main_window = QtWidgets.QMainWindow()
+        self.ui = Ui_Dom_1_2()
+        self.ui.setupUi(self.main_window)
+        self.main_window.show()
+        DomWindow.close()
+    
+    def open_Dom_1_3_window(self, event, DomWindow):
+        self.main_window = QtWidgets.QMainWindow()
+        self.ui = Ui_Dom_1_3()
+        self.ui.setupUi(self.main_window)
+        self.main_window.show()
+        DomWindow.close()
+
+    def open_Dom_1_4_window(self, event, DomWindow):
+        self.main_window = QtWidgets.QMainWindow()
+        self.ui = Ui_Dom_1_4()
+        self.ui.setupUi(self.main_window)
+        self.main_window.show()
+        DomWindow.close()
+
+    def open_Dom_1_5_window(self, event, DomWindow):
+        self.main_window = QtWidgets.QMainWindow()
+        self.ui = Ui_Dom_1_5()
+        self.ui.setupUi(self.main_window)
+        self.main_window.show()
+        DomWindow.close()
+
+    def open_Dom_1_6_window(self, event, DomWindow):
+        self.main_window = QtWidgets.QMainWindow()
+        self.ui = Ui_Dom_1_6()
+        self.ui.setupUi(self.main_window)
+        self.main_window.show()
+        DomWindow.close()
+
+    def open_Dom_1_7_window(self, event, DomWindow):
+        self.main_window = QtWidgets.QMainWindow()
+        self.ui = Ui_Dom_1_7()
+        self.ui.setupUi(self.main_window)
+        self.main_window.show()
+        DomWindow.close()
+
+    def open_Dom_1_8_window(self, event, DomWindow):
+        self.main_window = QtWidgets.QMainWindow()
+        self.ui = Ui_Dom_1_8()
+        self.ui.setupUi(self.main_window)
+        self.main_window.show()
+        DomWindow.close()
+
+    def open_Dom_1_9_window(self, event, DomWindow):
+        self.main_window = QtWidgets.QMainWindow()
+        self.ui = Ui_Dom_1_9()
+        self.ui.setupUi(self.main_window)
+        self.main_window.show()
+        DomWindow.close()
+
+    def open_Dom_1_10_window(self, event, DomWindow):
+        self.main_window = QtWidgets.QMainWindow()
+        self.ui = Ui_Dom_1_10()
+        self.ui.setupUi(self.main_window)
+        self.main_window.show()
+        DomWindow.close()
+
+    def open_Dom_1_11_window(self, event, DomWindow):
+        self.main_window = QtWidgets.QMainWindow()
+        self.ui = Ui_Dom_1_11()
+        self.ui.setupUi(self.main_window)
+        self.main_window.show()
+        DomWindow.close()
+
+    def open_Dom_2_1_window(self, event, DomWindow):
+        self.main_window = QtWidgets.QMainWindow()
+        self.ui = Ui_Dom_2_1()
+        self.ui.setupUi(self.main_window)
+        self.main_window.show()
+        DomWindow.close()
+
+    def open_Dom_2_2_window(self, event, DomWindow):
+        self.main_window = QtWidgets.QMainWindow()
+        self.ui = Ui_Dom_2_2()
+        self.ui.setupUi(self.main_window)
+        self.main_window.show()
+        DomWindow.close()
+
+    def open_Dom_2_3_window(self, event, DomWindow):
+        self.main_window = QtWidgets.QMainWindow()
+        self.ui = Ui_Dom_2_3()
+        self.ui.setupUi(self.main_window)
+        self.main_window.show()
+        DomWindow.close()
+
+    def open_Dom_2_4_window(self, event, DomWindow):
+        self.main_window = QtWidgets.QMainWindow()
+        self.ui = Ui_Dom_2_4()
+        self.ui.setupUi(self.main_window)
+        self.main_window.show()
+        DomWindow.close()
+
+    def open_Dom_2_5_window(self, event, DomWindow):
+        self.main_window = QtWidgets.QMainWindow()
+        self.ui = Ui_Dom_2_5()
+        self.ui.setupUi(self.main_window)
+        self.main_window.show()
+        DomWindow.close()
+
+
 
 
 class Ui_JsWindow(object):
@@ -890,6 +1020,7 @@ class Ui_JsWindow(object):
 ";\n"
 "}")
         self.btn_2_11.setObjectName("btn_2_11")
+        self.btn_2_11.mousePressEvent = lambda event: self.open_Js_2_11_window(event, JsWindow)
         self.btn_2_12 = QtWidgets.QPushButton(self.centralwidget)
         self.btn_2_12.setGeometry(QtCore.QRect(290, 470, 141, 41))
         font = QtGui.QFont()
@@ -910,6 +1041,7 @@ class Ui_JsWindow(object):
 ";\n"
 "}")
         self.btn_2_12.setObjectName("btn_2_12")
+        self.btn_2_12.mousePressEvent = lambda event: self.open_Js_2_12_window(event, JsWindow)
         self.btn_2_13 = QtWidgets.QPushButton(self.centralwidget)
         self.btn_2_13.setGeometry(QtCore.QRect(440, 470, 251, 41))
         font = QtGui.QFont()
@@ -930,6 +1062,7 @@ class Ui_JsWindow(object):
 ";\n"
 "}")
         self.btn_2_13.setObjectName("btn_2_13")
+        self.btn_2_13.mousePressEvent = lambda event: self.open_Js_2_13_window(event, JsWindow)
         self.btn_2_14 = QtWidgets.QPushButton(self.centralwidget)
         self.btn_2_14.setGeometry(QtCore.QRect(700, 470, 261, 41))
         font = QtGui.QFont()
@@ -950,6 +1083,7 @@ class Ui_JsWindow(object):
 ";\n"
 "}")
         self.btn_2_14.setObjectName("btn_2_14")
+        self.btn_2_14.mousePressEvent = lambda event: self.open_Js_2_14_window(event, JsWindow)
         self.btn_2_15 = QtWidgets.QPushButton(self.centralwidget)
         self.btn_2_15.setGeometry(QtCore.QRect(20, 520, 431, 41))
         font = QtGui.QFont()
@@ -970,6 +1104,7 @@ class Ui_JsWindow(object):
 ";\n"
 "}")
         self.btn_2_15.setObjectName("btn_2_15")
+        self.btn_2_15.mousePressEvent = lambda event: self.open_Js_2_15_window(event, JsWindow)
         self.btn_2_16 = QtWidgets.QPushButton(self.centralwidget)
         self.btn_2_16.setGeometry(QtCore.QRect(610, 520, 291, 41))
         font = QtGui.QFont()
@@ -990,6 +1125,7 @@ class Ui_JsWindow(object):
 ";\n"
 "}")
         self.btn_2_16.setObjectName("btn_2_16")
+        self.btn_2_16.mousePressEvent = lambda event: self.open_Js_2_17_window(event, JsWindow)
         self.btn_2_17 = QtWidgets.QPushButton(self.centralwidget)
         self.btn_2_17.setGeometry(QtCore.QRect(460, 520, 141, 41))
         font = QtGui.QFont()
@@ -1010,6 +1146,7 @@ class Ui_JsWindow(object):
 ";\n"
 "}")
         self.btn_2_17.setObjectName("btn_2_17")
+        self.btn_2_17.mousePressEvent = lambda event: self.open_Js_2_16_window(event, JsWindow)
         JsWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(JsWindow)
@@ -1142,6 +1279,549 @@ class Ui_JsWindow(object):
         self.ui.setupUi(self.main_window)
         self.main_window.show()
         JsWindow.close()
+
+    def open_Js_2_11_window(self, event, JsWindow):
+        self.main_window = QtWidgets.QMainWindow()
+        self.ui = Ui_Js_2_11()
+        self.ui.setupUi(self.main_window)
+        self.main_window.show()
+        JsWindow.close()
+
+    def open_Js_2_12_window(self, event, JsWindow):
+        self.main_window = QtWidgets.QMainWindow()
+        self.ui = Ui_Js_2_12()
+        self.ui.setupUi(self.main_window)
+        self.main_window.show()
+        JsWindow.close()
+
+    def open_Js_2_13_window(self, event, JsWindow):
+        self.main_window = QtWidgets.QMainWindow()
+        self.ui = Ui_Js_2_13()
+        self.ui.setupUi(self.main_window)
+        self.main_window.show()
+        JsWindow.close()
+
+    def open_Js_2_14_window(self, event, JsWindow):
+        self.main_window = QtWidgets.QMainWindow()
+        self.ui = Ui_Js_2_14()
+        self.ui.setupUi(self.main_window)
+        self.main_window.show()
+        JsWindow.close()
+
+    def open_Js_2_15_window(self, event, JsWindow):
+        self.main_window = QtWidgets.QMainWindow()
+        self.ui = Ui_Js_2_15()
+        self.ui.setupUi(self.main_window)
+        self.main_window.show()
+        JsWindow.close()
+
+    def open_Js_2_16_window(self, event, JsWindow):
+        self.main_window = QtWidgets.QMainWindow()
+        self.ui = Ui_Js_2_16()
+        self.ui.setupUi(self.main_window)
+        self.main_window.show()
+        JsWindow.close()
+
+    def open_Js_2_17_window(self, event, JsWindow):
+        self.main_window = QtWidgets.QMainWindow()
+        self.ui = Ui_Js_2_17()
+        self.ui.setupUi(self.main_window)
+        self.main_window.show()
+        JsWindow.close()
+
+
+class Ui_Dom_1_1(object):
+    def setupUi(self, Dom_1_1):
+        Dom_1_1.setObjectName("Dom_1_1")
+        Dom_1_1.resize(770, 700)
+        Dom_1_1.setMinimumSize(QtCore.QSize(770, 700))
+        Dom_1_1.setMaximumSize(QtCore.QSize(770, 700))
+        Dom_1_1.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.centralwidget = QtWidgets.QWidget(Dom_1_1)
+        self.centralwidget.setObjectName("centralwidget")
+        self.logo = QtWidgets.QLabel(self.centralwidget)
+        self.logo.setGeometry(QtCore.QRect(9, 9, 40, 40))
+        self.logo.setMinimumSize(QtCore.QSize(40, 40))
+        self.logo.setMaximumSize(QtCore.QSize(40, 40))
+        self.logo.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.logo.setStyleSheet("QLabel{\n"
+"border-radius: 8px;\n"
+"teax-align:center;\n"
+"background-color:#f16a30;\n"
+"}\n"
+"QLabel:hover{\n"
+"    background-color: #f0dc55;\n"
+"}")
+        self.logo.setText("")
+        self.logo.setPixmap(QtGui.QPixmap("arrow.svg"))
+        self.logo.setAlignment(QtCore.Qt.AlignCenter)
+        self.logo.setObjectName("logo")
+        self.logo.mousePressEvent = lambda event: self.open_Dom_window(event, Dom_1_1)
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(70, 9, 621, 41))
+        self.label.setMinimumSize(QtCore.QSize(60, 0))
+        self.label.setMaximumSize(QtCore.QSize(16777215, 16777215))
+        font = QtGui.QFont()
+        font.setPointSize(-1)
+        self.label.setFont(font)
+        self.label.setStyleSheet("font-size: 20px;")
+        self.label.setObjectName("label")
+        self.scrollArea = QtWidgets.QScrollArea(self.centralwidget)
+        self.scrollArea.setGeometry(QtCore.QRect(10, 70, 760, 634))
+        self.scrollArea.setMinimumSize(QtCore.QSize(760, 0))
+        self.scrollArea.setMaximumSize(QtCore.QSize(760, 634))
+        self.scrollArea.setStyleSheet("border: none;\n"
+"")
+        self.scrollArea.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
+        self.scrollArea.setWidgetResizable(True)
+        self.scrollArea.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
+        self.scrollArea.setObjectName("scrollArea")
+        self.scrollAreaWidgetContents_2 = QtWidgets.QWidget()
+        self.scrollAreaWidgetContents_2.setGeometry(QtCore.QRect(0, 0, 743, 3274))
+        self.scrollAreaWidgetContents_2.setObjectName("scrollAreaWidgetContents_2")
+        self.gridLayout_2 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_2)
+        self.gridLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_2.setSpacing(0)
+        self.gridLayout_2.setObjectName("gridLayout_2")
+        self.label_21 = QtWidgets.QLabel(self.scrollAreaWidgetContents_2)
+        self.label_21.setStyleSheet("padding-bottom: 10px")
+        self.label_21.setText("")
+        self.label_21.setPixmap(QtGui.QPixmap("learn.javascript.ru_browser-environment.jpg"))
+        self.label_21.setObjectName("label_21")
+        self.gridLayout_2.addWidget(self.label_21, 0, 0, 1, 1)
+        self.scrollArea.setWidget(self.scrollAreaWidgetContents_2)
+        Dom_1_1.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(Dom_1_1)
+        QtCore.QMetaObject.connectSlotsByName(Dom_1_1)
+
+    def retranslateUi(self, Dom_1_1):
+        _translate = QtCore.QCoreApplication.translate
+        Dom_1_1.setWindowTitle(_translate("Dom_1_1", "MainWindow"))
+        self.label.setText(_translate("Dom_1_1", "<h2>\n"
+"Браузерное окружение, спецификации\n"
+"</h2>"))
+
+    def open_Dom_window(self, event, Dom_1_1):
+      self.main_window = QtWidgets.QMainWindow()
+      self.ui = Ui_DomWindow()
+      self.ui.setupUi(self.main_window)
+      self.main_window.show()
+      Dom_1_1.close()
+
+
+class Ui_Dom_1_2(object):
+    def setupUi(self, Dom_1_2):
+        Dom_1_2.setObjectName("Dom_1_2")
+        Dom_1_2.resize(770, 700)
+        Dom_1_2.setMinimumSize(QtCore.QSize(770, 700))
+        Dom_1_2.setMaximumSize(QtCore.QSize(770, 700))
+        Dom_1_2.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.centralwidget = QtWidgets.QWidget(Dom_1_2)
+        self.centralwidget.setObjectName("centralwidget")
+        self.logo = QtWidgets.QLabel(self.centralwidget)
+        self.logo.setGeometry(QtCore.QRect(9, 9, 40, 40))
+        self.logo.setMinimumSize(QtCore.QSize(40, 40))
+        self.logo.setMaximumSize(QtCore.QSize(40, 40))
+        self.logo.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.logo.setStyleSheet("QLabel{\n"
+"border-radius: 8px;\n"
+"teax-align:center;\n"
+"background-color:#f16a30;\n"
+"}\n"
+"QLabel:hover{\n"
+"    background-color: #f0dc55;\n"
+"}")
+        self.logo.setText("")
+        self.logo.setPixmap(QtGui.QPixmap("arrow.svg"))
+        self.logo.setAlignment(QtCore.Qt.AlignCenter)
+        self.logo.setObjectName("logo")
+        self.logo.mousePressEvent = lambda event: self.open_Dom_window(event, Dom_1_2)
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(70, 9, 621, 41))
+        self.label.setMinimumSize(QtCore.QSize(60, 0))
+        self.label.setMaximumSize(QtCore.QSize(16777215, 16777215))
+        font = QtGui.QFont()
+        font.setPointSize(-1)
+        self.label.setFont(font)
+        self.label.setStyleSheet("font-size: 20px;")
+        self.label.setObjectName("label")
+        self.scrollArea = QtWidgets.QScrollArea(self.centralwidget)
+        self.scrollArea.setGeometry(QtCore.QRect(10, 70, 760, 634))
+        self.scrollArea.setMinimumSize(QtCore.QSize(760, 0))
+        self.scrollArea.setMaximumSize(QtCore.QSize(760, 634))
+        self.scrollArea.setStyleSheet("border: none;\n"
+"")
+        self.scrollArea.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
+        self.scrollArea.setWidgetResizable(True)
+        self.scrollArea.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
+        self.scrollArea.setObjectName("scrollArea")
+        self.scrollAreaWidgetContents_2 = QtWidgets.QWidget()
+        self.scrollAreaWidgetContents_2.setGeometry(QtCore.QRect(0, -7909, 743, 8543))
+        self.scrollAreaWidgetContents_2.setObjectName("scrollAreaWidgetContents_2")
+        self.gridLayout_2 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_2)
+        self.gridLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_2.setSpacing(0)
+        self.gridLayout_2.setObjectName("gridLayout_2")
+        self.label_21 = QtWidgets.QLabel(self.scrollAreaWidgetContents_2)
+        self.label_21.setStyleSheet("padding-bottom: 20px")
+        self.label_21.setText("")
+        self.label_21.setPixmap(QtGui.QPixmap("learn.javascript.ru_dom-nodes.jpg"))
+        self.label_21.setObjectName("label_21")
+        self.gridLayout_2.addWidget(self.label_21, 0, 0, 1, 1)
+        self.scrollArea.setWidget(self.scrollAreaWidgetContents_2)
+        Dom_1_2.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(Dom_1_2)
+        QtCore.QMetaObject.connectSlotsByName(Dom_1_2)
+
+    def retranslateUi(self, Dom_1_2):
+        _translate = QtCore.QCoreApplication.translate
+        Dom_1_2.setWindowTitle(_translate("Dom_1_2", "MainWindow"))
+        self.label.setText(_translate("Dom_1_2", "<h2>\n"
+"DOM-дерево\n"
+"\n"
+"\n"
+"</h2>"))
+
+    def open_Dom_window(self, event, Dom_1_2):
+      self.main_window = QtWidgets.QMainWindow()
+      self.ui = Ui_DomWindow()
+      self.ui.setupUi(self.main_window)
+      self.main_window.show()
+      Dom_1_2.close()
+
+
+class Ui_Dom_1_3(object):
+    def setupUi(self, Dom_1_3):
+        Dom_1_3.setObjectName("Dom_1_3")
+        Dom_1_3.resize(770, 700)
+        Dom_1_3.setMinimumSize(QtCore.QSize(770, 700))
+        Dom_1_3.setMaximumSize(QtCore.QSize(770, 700))
+        Dom_1_3.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.centralwidget = QtWidgets.QWidget(Dom_1_3)
+        self.centralwidget.setObjectName("centralwidget")
+        self.logo = QtWidgets.QLabel(self.centralwidget)
+        self.logo.setGeometry(QtCore.QRect(9, 9, 40, 40))
+        self.logo.setMinimumSize(QtCore.QSize(40, 40))
+        self.logo.setMaximumSize(QtCore.QSize(40, 40))
+        self.logo.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.logo.setStyleSheet("QLabel{\n"
+"border-radius: 8px;\n"
+"teax-align:center;\n"
+"background-color:#f16a30;\n"
+"}\n"
+"QLabel:hover{\n"
+"    background-color: #f0dc55;\n"
+"}")
+        self.logo.setText("")
+        self.logo.setPixmap(QtGui.QPixmap("arrow.svg"))
+        self.logo.setAlignment(QtCore.Qt.AlignCenter)
+        self.logo.setObjectName("logo")
+        self.logo.mousePressEvent = lambda event: self.open_Dom_window(event, Dom_1_3)
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(70, 9, 621, 41))
+        self.label.setMinimumSize(QtCore.QSize(60, 0))
+        self.label.setMaximumSize(QtCore.QSize(16777215, 16777215))
+        font = QtGui.QFont()
+        font.setPointSize(-1)
+        self.label.setFont(font)
+        self.label.setStyleSheet("font-size: 20px;")
+        self.label.setObjectName("label")
+        self.scrollArea = QtWidgets.QScrollArea(self.centralwidget)
+        self.scrollArea.setGeometry(QtCore.QRect(10, 70, 760, 634))
+        self.scrollArea.setMinimumSize(QtCore.QSize(760, 0))
+        self.scrollArea.setMaximumSize(QtCore.QSize(760, 634))
+        self.scrollArea.setStyleSheet("border: none;\n"
+"")
+        self.scrollArea.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
+        self.scrollArea.setWidgetResizable(True)
+        self.scrollArea.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
+        self.scrollArea.setObjectName("scrollArea")
+        self.scrollAreaWidgetContents_2 = QtWidgets.QWidget()
+        self.scrollAreaWidgetContents_2.setGeometry(QtCore.QRect(0, 0, 743, 7876))
+        self.scrollAreaWidgetContents_2.setObjectName("scrollAreaWidgetContents_2")
+        self.gridLayout_2 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_2)
+        self.gridLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_2.setSpacing(0)
+        self.gridLayout_2.setObjectName("gridLayout_2")
+        self.label_21 = QtWidgets.QLabel(self.scrollAreaWidgetContents_2)
+        self.label_21.setStyleSheet("padding-bottom: 20px")
+        self.label_21.setText("")
+        self.label_21.setPixmap(QtGui.QPixmap("learn.javascript.ru_dom-navigation.jpg"))
+        self.label_21.setObjectName("label_21")
+        self.gridLayout_2.addWidget(self.label_21, 0, 0, 1, 1)
+        self.scrollArea.setWidget(self.scrollAreaWidgetContents_2)
+        Dom_1_3.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(Dom_1_3)
+        QtCore.QMetaObject.connectSlotsByName(Dom_1_3)
+
+    def retranslateUi(self, Dom_1_3):
+        _translate = QtCore.QCoreApplication.translate
+        Dom_1_3.setWindowTitle(_translate("Dom_1_3", "MainWindow"))
+        self.label.setText(_translate("Dom_1_3", "<h2>\n"
+"Навигация по DOM-элементам\n"
+"</h2>"))
+
+    def open_Dom_window(self, event, Dom_1_3):
+      self.main_window = QtWidgets.QMainWindow()
+      self.ui = Ui_DomWindow()
+      self.ui.setupUi(self.main_window)
+      self.main_window.show()
+      Dom_1_3.close()
+
+
+class Ui_Dom_1_4(object):
+    def setupUi(self, Dom_1_4):
+        Dom_1_4.setObjectName("Dom_1_4")
+        Dom_1_4.resize(770, 700)
+        Dom_1_4.setMinimumSize(QtCore.QSize(770, 700))
+        Dom_1_4.setMaximumSize(QtCore.QSize(770, 700))
+        Dom_1_4.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.centralwidget = QtWidgets.QWidget(Dom_1_4)
+        self.centralwidget.setObjectName("centralwidget")
+        self.logo = QtWidgets.QLabel(self.centralwidget)
+        self.logo.setGeometry(QtCore.QRect(9, 9, 40, 40))
+        self.logo.setMinimumSize(QtCore.QSize(40, 40))
+        self.logo.setMaximumSize(QtCore.QSize(40, 40))
+        self.logo.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.logo.setStyleSheet("QLabel{\n"
+"border-radius: 8px;\n"
+"teax-align:center;\n"
+"background-color:#f16a30;\n"
+"}\n"
+"QLabel:hover{\n"
+"    background-color: #f0dc55;\n"
+"}")
+        self.logo.setText("")
+        self.logo.setPixmap(QtGui.QPixmap("arrow.svg"))
+        self.logo.setAlignment(QtCore.Qt.AlignCenter)
+        self.logo.setObjectName("logo")
+        self.logo.mousePressEvent = lambda event: self.open_Dom_window(event, Dom_1_4)
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(70, 9, 621, 41))
+        self.label.setMinimumSize(QtCore.QSize(60, 0))
+        self.label.setMaximumSize(QtCore.QSize(16777215, 16777215))
+        font = QtGui.QFont()
+        font.setPointSize(-1)
+        self.label.setFont(font)
+        self.label.setStyleSheet("font-size: 20px;")
+        self.label.setObjectName("label")
+        self.scrollArea = QtWidgets.QScrollArea(self.centralwidget)
+        self.scrollArea.setGeometry(QtCore.QRect(10, 70, 760, 634))
+        self.scrollArea.setMinimumSize(QtCore.QSize(760, 0))
+        self.scrollArea.setMaximumSize(QtCore.QSize(760, 634))
+        self.scrollArea.setStyleSheet("border: none;\n"
+"")
+        self.scrollArea.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
+        self.scrollArea.setWidgetResizable(True)
+        self.scrollArea.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
+        self.scrollArea.setObjectName("scrollArea")
+        self.scrollAreaWidgetContents_2 = QtWidgets.QWidget()
+        self.scrollAreaWidgetContents_2.setGeometry(QtCore.QRect(0, 0, 743, 7300))
+        self.scrollAreaWidgetContents_2.setObjectName("scrollAreaWidgetContents_2")
+        self.gridLayout_2 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_2)
+        self.gridLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_2.setSpacing(0)
+        self.gridLayout_2.setObjectName("gridLayout_2")
+        self.label_21 = QtWidgets.QLabel(self.scrollAreaWidgetContents_2)
+        self.label_21.setStyleSheet("padding-bottom: 20px")
+        self.label_21.setText("")
+        self.label_21.setPixmap(QtGui.QPixmap("learn.javascript.ru_searching-elements-dom.jpg"))
+        self.label_21.setObjectName("label_21")
+        self.gridLayout_2.addWidget(self.label_21, 0, 0, 1, 1)
+        self.scrollArea.setWidget(self.scrollAreaWidgetContents_2)
+        Dom_1_4.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(Dom_1_4)
+        QtCore.QMetaObject.connectSlotsByName(Dom_1_4)
+
+    def retranslateUi(self, Dom_1_4):
+        _translate = QtCore.QCoreApplication.translate
+        Dom_1_4.setWindowTitle(_translate("Dom_1_4", "MainWindow"))
+        self.label.setText(_translate("Dom_1_4", "<h2>\n"
+"Поиск: getElement*, querySelector*\n"
+"</h2>"))
+
+    def open_Dom_window(self, event, Dom_1_4):
+      self.main_window = QtWidgets.QMainWindow()
+      self.ui = Ui_DomWindow()
+      self.ui.setupUi(self.main_window)
+      self.main_window.show()
+      Dom_1_4.close()
+
+
+class Ui_Dom_1_5(object):
+    def setupUi(self, Dom_1_5):
+        Dom_1_5.setObjectName("Dom_1_5")
+        Dom_1_5.resize(770, 700)
+        Dom_1_5.setMinimumSize(QtCore.QSize(770, 700))
+        Dom_1_5.setMaximumSize(QtCore.QSize(770, 700))
+        Dom_1_5.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.centralwidget = QtWidgets.QWidget(Dom_1_5)
+        self.centralwidget.setObjectName("centralwidget")
+        self.logo = QtWidgets.QLabel(self.centralwidget)
+        self.logo.setGeometry(QtCore.QRect(9, 9, 40, 40))
+        self.logo.setMinimumSize(QtCore.QSize(40, 40))
+        self.logo.setMaximumSize(QtCore.QSize(40, 40))
+        self.logo.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.logo.setStyleSheet("QLabel{\n"
+"border-radius: 8px;\n"
+"teax-align:center;\n"
+"background-color:#f16a30;\n"
+"}\n"
+"QLabel:hover{\n"
+"    background-color: #f0dc55;\n"
+"}")
+        self.logo.setText("")
+        self.logo.setPixmap(QtGui.QPixmap("arrow.svg"))
+        self.logo.setAlignment(QtCore.Qt.AlignCenter)
+        self.logo.setObjectName("logo")
+        self.logo.mousePressEvent = lambda event: self.open_Dom_window(event, Dom_1_5)
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(70, 9, 621, 41))
+        self.label.setMinimumSize(QtCore.QSize(60, 0))
+        self.label.setMaximumSize(QtCore.QSize(16777215, 16777215))
+        font = QtGui.QFont()
+        font.setPointSize(-1)
+        self.label.setFont(font)
+        self.label.setStyleSheet("font-size: 20px;")
+        self.label.setObjectName("label")
+        self.scrollArea = QtWidgets.QScrollArea(self.centralwidget)
+        self.scrollArea.setGeometry(QtCore.QRect(10, 70, 760, 634))
+        self.scrollArea.setMinimumSize(QtCore.QSize(760, 0))
+        self.scrollArea.setMaximumSize(QtCore.QSize(760, 634))
+        self.scrollArea.setStyleSheet("border: none;\n"
+"")
+        self.scrollArea.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
+        self.scrollArea.setWidgetResizable(True)
+        self.scrollArea.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
+        self.scrollArea.setObjectName("scrollArea")
+        self.scrollAreaWidgetContents_2 = QtWidgets.QWidget()
+        self.scrollAreaWidgetContents_2.setGeometry(QtCore.QRect(0, 0, 743, 7300))
+        self.scrollAreaWidgetContents_2.setObjectName("scrollAreaWidgetContents_2")
+        self.gridLayout_2 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_2)
+        self.gridLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_2.setSpacing(0)
+        self.gridLayout_2.setObjectName("gridLayout_2")
+        self.label_21 = QtWidgets.QLabel(self.scrollAreaWidgetContents_2)
+        self.label_21.setStyleSheet("padding-bottom: 20px")
+        self.label_21.setText("")
+        self.label_21.setPixmap(QtGui.QPixmap("learn.javascript.ru_basic-dom-node-properties.jpg"))
+        self.label_21.setObjectName("label_21")
+        self.gridLayout_2.addWidget(self.label_21, 0, 0, 1, 1)
+        self.scrollArea.setWidget(self.scrollAreaWidgetContents_2)
+        Dom_1_5.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(Dom_1_5)
+        QtCore.QMetaObject.connectSlotsByName(Dom_1_5)
+
+    def retranslateUi(self, Dom_1_5):
+        _translate = QtCore.QCoreApplication.translate
+        Dom_1_5.setWindowTitle(_translate("Dom_1_5", "MainWindow"))
+        self.label.setText(_translate("Dom_1_5", "<h2>\n"
+"Свойства узлов: тип, тег и содержимое\n"
+"</h2>"))
+
+    def open_Dom_window(self, event, Dom_1_5):
+      self.main_window = QtWidgets.QMainWindow()
+      self.ui = Ui_DomWindow()
+      self.ui.setupUi(self.main_window)
+      self.main_window.show()
+      Dom_1_5.close()
+
+
+class Ui_Dom_1_6(object):
+    def setupUi(self, Dom_1_6):
+        Dom_1_6.setObjectName("Dom_1_5")
+        Dom_1_6.resize(770, 700)
+        Dom_1_6.setMinimumSize(QtCore.QSize(770, 700))
+        Dom_1_6.setMaximumSize(QtCore.QSize(770, 700))
+        Dom_1_6.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.centralwidget = QtWidgets.QWidget(Dom_1_6)
+        self.centralwidget.setObjectName("centralwidget")
+        self.logo = QtWidgets.QLabel(self.centralwidget)
+        self.logo.setGeometry(QtCore.QRect(9, 9, 40, 40))
+        self.logo.setMinimumSize(QtCore.QSize(40, 40))
+        self.logo.setMaximumSize(QtCore.QSize(40, 40))
+        self.logo.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.logo.setStyleSheet("QLabel{\n"
+"border-radius: 8px;\n"
+"teax-align:center;\n"
+"background-color:#f16a30;\n"
+"}\n"
+"QLabel:hover{\n"
+"    background-color: #f0dc55;\n"
+"}")
+        self.logo.setText("")
+        self.logo.setPixmap(QtGui.QPixmap("arrow.svg"))
+        self.logo.setAlignment(QtCore.Qt.AlignCenter)
+        self.logo.setObjectName("logo")
+        self.logo.mousePressEvent = lambda event: self.open_Dom_window(event, Dom_1_6)
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(70, 9, 621, 41))
+        self.label.setMinimumSize(QtCore.QSize(60, 0))
+        self.label.setMaximumSize(QtCore.QSize(16777215, 16777215))
+        font = QtGui.QFont()
+        font.setPointSize(-1)
+        self.label.setFont(font)
+        self.label.setStyleSheet("font-size: 20px;")
+        self.label.setObjectName("label")
+        self.scrollArea = QtWidgets.QScrollArea(self.centralwidget)
+        self.scrollArea.setGeometry(QtCore.QRect(10, 70, 760, 634))
+        self.scrollArea.setMinimumSize(QtCore.QSize(760, 0))
+        self.scrollArea.setMaximumSize(QtCore.QSize(760, 634))
+        self.scrollArea.setStyleSheet("border: none;\n"
+"")
+        self.scrollArea.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
+        self.scrollArea.setWidgetResizable(True)
+        self.scrollArea.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
+        self.scrollArea.setObjectName("scrollArea")
+        self.scrollAreaWidgetContents_2 = QtWidgets.QWidget()
+        self.scrollAreaWidgetContents_2.setGeometry(QtCore.QRect(0, 0, 743, 7300))
+        self.scrollAreaWidgetContents_2.setObjectName("scrollAreaWidgetContents_2")
+        self.gridLayout_2 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_2)
+        self.gridLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_2.setSpacing(0)
+        self.gridLayout_2.setObjectName("gridLayout_2")
+        self.label_21 = QtWidgets.QLabel(self.scrollAreaWidgetContents_2)
+        self.label_21.setStyleSheet("padding-bottom: 20px")
+        self.label_21.setText("")
+        self.label_21.setPixmap(QtGui.QPixmap("learn.javascript.ru_dom-attributes-and-properties.jpg"))
+        self.label_21.setObjectName("label_21")
+        self.gridLayout_2.addWidget(self.label_21, 0, 0, 1, 1)
+        self.scrollArea.setWidget(self.scrollAreaWidgetContents_2)
+        Dom_1_6.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(Dom_1_6)
+        QtCore.QMetaObject.connectSlotsByName(Dom_1_6)
+
+    def retranslateUi(self, Dom_1_6):
+        _translate = QtCore.QCoreApplication.translate
+        Dom_1_6.setWindowTitle(_translate("Dom_1_5", "MainWindow"))
+        self.label.setText(_translate("Dom_1_6", "<h2>\n"
+"Атрибуты и свойства\n"
+"</h2>"))
+
+    def open_Dom_window(self, event, Dom_1_6):
+      self.main_window = QtWidgets.QMainWindow()
+      self.ui = Ui_DomWindow()
+      self.ui.setupUi(self.main_window)
+      self.main_window.show()
+      Dom_1_6.close()
+
+
+
+# self.logo.mousePressEvent = lambda event: self.open_Dom_window(event, Dom_1_6)
+
+
+
+
+
+
+
+
 
 
 class Ui_Js_1_1(object):
@@ -2145,9 +2825,556 @@ class Ui_Js_2_10(object):
       Js_2_10.close()
 
 
+class Ui_Js_2_11(object):
+    def setupUi(self, Js_2_11):
+        Js_2_11.setObjectName("Js_2_11")
+        Js_2_11.resize(770, 700)
+        Js_2_11.setMinimumSize(QtCore.QSize(770, 700))
+        Js_2_11.setMaximumSize(QtCore.QSize(770, 700))
+        Js_2_11.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.centralwidget = QtWidgets.QWidget(Js_2_11)
+        self.centralwidget.setObjectName("centralwidget")
+        self.logo = QtWidgets.QLabel(self.centralwidget)
+        self.logo.setGeometry(QtCore.QRect(9, 9, 40, 40))
+        self.logo.setMinimumSize(QtCore.QSize(40, 40))
+        self.logo.setMaximumSize(QtCore.QSize(40, 40))
+        self.logo.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.logo.setStyleSheet("QLabel{\n"
+"border-radius: 8px;\n"
+"teax-align:center;\n"
+"background-color:#f16a30;\n"
+"}\n"
+"QLabel:hover{\n"
+"    background-color: #f0dc55;\n"
+"}")
+        self.logo.setText("")
+        self.logo.setPixmap(QtGui.QPixmap("arrow.svg"))
+        self.logo.setAlignment(QtCore.Qt.AlignCenter)
+        self.logo.setObjectName("logo")
+        self.logo.mousePressEvent = lambda event: self.open_Js_window(event, Js_2_11)
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(70, 9, 531, 41))
+        self.label.setMinimumSize(QtCore.QSize(60, 0))
+        self.label.setMaximumSize(QtCore.QSize(16777215, 16777215))
+        font = QtGui.QFont()
+        font.setPointSize(-1)
+        self.label.setFont(font)
+        self.label.setStyleSheet("font-size: 20px;")
+        self.label.setObjectName("label")
+        self.scrollArea = QtWidgets.QScrollArea(self.centralwidget)
+        self.scrollArea.setGeometry(QtCore.QRect(10, 70, 760, 634))
+        self.scrollArea.setMinimumSize(QtCore.QSize(760, 0))
+        self.scrollArea.setMaximumSize(QtCore.QSize(760, 634))
+        self.scrollArea.setStyleSheet("border: none;\n"
+"")
+        self.scrollArea.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
+        self.scrollArea.setWidgetResizable(True)
+        self.scrollArea.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
+        self.scrollArea.setObjectName("scrollArea")
+        self.scrollAreaWidgetContents_2 = QtWidgets.QWidget()
+        self.scrollAreaWidgetContents_2.setGeometry(QtCore.QRect(0, 0, 743, 8727))
+        self.scrollAreaWidgetContents_2.setObjectName("scrollAreaWidgetContents_2")
+        self.gridLayout_2 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_2)
+        self.gridLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_2.setSpacing(0)
+        self.gridLayout_2.setObjectName("gridLayout_2")
+        self.label_21 = QtWidgets.QLabel(self.scrollAreaWidgetContents_2)
+        self.label_21.setText("")
+        self.label_21.setPixmap(QtGui.QPixmap("learn.javascript.ru_while-for.jpg"))
+        self.label_21.setObjectName("label_21")
+        self.gridLayout_2.addWidget(self.label_21, 0, 0, 1, 1)
+        self.scrollArea.setWidget(self.scrollAreaWidgetContents_2)
+        Js_2_11.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(Js_2_11)
+        QtCore.QMetaObject.connectSlotsByName(Js_2_11)
+
+    def retranslateUi(self, Js_2_11):
+        _translate = QtCore.QCoreApplication.translate
+        Js_2_11.setWindowTitle(_translate("Js_2_11", "MainWindow"))
+        self.label.setText(_translate("Js_2_11", "<h2>Циклы while и for</h2>"))
+
+    def open_Js_window(self, event, Js_2_11):
+      self.main_window = QtWidgets.QMainWindow()
+      self.ui = Ui_JsWindow()
+      self.ui.setupUi(self.main_window)
+      self.main_window.show()
+      Js_2_11.close()
 
 
-# self.logo.mousePressEvent = lambda event: self.open_Js_window(event, Js_2_4)
+class Ui_Js_2_12(object):
+    def setupUi(self, Js_2_12):
+        Js_2_12.setObjectName("Js_2_12")
+        Js_2_12.resize(770, 700)
+        Js_2_12.setMinimumSize(QtCore.QSize(770, 700))
+        Js_2_12.setMaximumSize(QtCore.QSize(770, 700))
+        Js_2_12.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.centralwidget = QtWidgets.QWidget(Js_2_12)
+        self.centralwidget.setObjectName("centralwidget")
+        self.logo = QtWidgets.QLabel(self.centralwidget)
+        self.logo.setGeometry(QtCore.QRect(9, 9, 40, 40))
+        self.logo.setMinimumSize(QtCore.QSize(40, 40))
+        self.logo.setMaximumSize(QtCore.QSize(40, 40))
+        self.logo.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.logo.setStyleSheet("QLabel{\n"
+"border-radius: 8px;\n"
+"teax-align:center;\n"
+"background-color:#f16a30;\n"
+"}\n"
+"QLabel:hover{\n"
+"    background-color: #f0dc55;\n"
+"}")
+        self.logo.setText("")
+        self.logo.setPixmap(QtGui.QPixmap("arrow.svg"))
+        self.logo.setAlignment(QtCore.Qt.AlignCenter)
+        self.logo.setObjectName("logo")
+        self.logo.mousePressEvent = lambda event: self.open_Js_window(event, Js_2_12)
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(70, 9, 531, 41))
+        self.label.setMinimumSize(QtCore.QSize(60, 0))
+        self.label.setMaximumSize(QtCore.QSize(16777215, 16777215))
+        font = QtGui.QFont()
+        font.setPointSize(-1)
+        self.label.setFont(font)
+        self.label.setStyleSheet("font-size: 20px;")
+        self.label.setObjectName("label")
+        self.scrollArea = QtWidgets.QScrollArea(self.centralwidget)
+        self.scrollArea.setGeometry(QtCore.QRect(10, 70, 760, 634))
+        self.scrollArea.setMinimumSize(QtCore.QSize(760, 0))
+        self.scrollArea.setMaximumSize(QtCore.QSize(760, 634))
+        self.scrollArea.setStyleSheet("border: none;\n"
+"")
+        self.scrollArea.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
+        self.scrollArea.setWidgetResizable(True)
+        self.scrollArea.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
+        self.scrollArea.setObjectName("scrollArea")
+        self.scrollAreaWidgetContents_2 = QtWidgets.QWidget()
+        self.scrollAreaWidgetContents_2.setGeometry(QtCore.QRect(0, 0, 743, 11242))
+        self.scrollAreaWidgetContents_2.setObjectName("scrollAreaWidgetContents_2")
+        self.gridLayout_2 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_2)
+        self.gridLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_2.setSpacing(0)
+        self.gridLayout_2.setObjectName("gridLayout_2")
+        self.label_21 = QtWidgets.QLabel(self.scrollAreaWidgetContents_2)
+        self.label_21.setText("")
+        self.label_21.setPixmap(QtGui.QPixmap("learn.javascript.ru_function-basics.jpg"))
+        self.label_21.setObjectName("label_21")
+        self.gridLayout_2.addWidget(self.label_21, 0, 0, 1, 1)
+        self.scrollArea.setWidget(self.scrollAreaWidgetContents_2)
+        Js_2_12.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(Js_2_12)
+        QtCore.QMetaObject.connectSlotsByName(Js_2_12)
+
+    def retranslateUi(self, Js_2_12):
+        _translate = QtCore.QCoreApplication.translate
+        Js_2_12.setWindowTitle(_translate("Js_2_12", "MainWindow"))
+        self.label.setText(_translate("Js_2_12", "<h2>Функции</h2>"))
+
+    def open_Js_window(self, event, Js_2_12):
+      self.main_window = QtWidgets.QMainWindow()
+      self.ui = Ui_JsWindow()
+      self.ui.setupUi(self.main_window)
+      self.main_window.show()
+      Js_2_12.close()
+
+
+class Ui_Js_2_13(object):
+    def setupUi(self, Js_2_13):
+        Js_2_13.setObjectName("Js_2_13")
+        Js_2_13.resize(770, 700)
+        Js_2_13.setMinimumSize(QtCore.QSize(770, 700))
+        Js_2_13.setMaximumSize(QtCore.QSize(770, 700))
+        Js_2_13.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.centralwidget = QtWidgets.QWidget(Js_2_13)
+        self.centralwidget.setObjectName("centralwidget")
+        self.logo = QtWidgets.QLabel(self.centralwidget)
+        self.logo.setGeometry(QtCore.QRect(9, 9, 40, 40))
+        self.logo.setMinimumSize(QtCore.QSize(40, 40))
+        self.logo.setMaximumSize(QtCore.QSize(40, 40))
+        self.logo.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.logo.setStyleSheet("QLabel{\n"
+"border-radius: 8px;\n"
+"teax-align:center;\n"
+"background-color:#f16a30;\n"
+"}\n"
+"QLabel:hover{\n"
+"    background-color: #f0dc55;\n"
+"}")
+        self.logo.setText("")
+        self.logo.setPixmap(QtGui.QPixmap("arrow.svg"))
+        self.logo.setAlignment(QtCore.Qt.AlignCenter)
+        self.logo.setObjectName("logo")
+        self.logo.mousePressEvent = lambda event: self.open_Js_window(event, Js_2_13)
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(70, 9, 531, 41))
+        self.label.setMinimumSize(QtCore.QSize(60, 0))
+        self.label.setMaximumSize(QtCore.QSize(16777215, 16777215))
+        font = QtGui.QFont()
+        font.setPointSize(-1)
+        self.label.setFont(font)
+        self.label.setStyleSheet("font-size: 20px;")
+        self.label.setObjectName("label")
+        self.scrollArea = QtWidgets.QScrollArea(self.centralwidget)
+        self.scrollArea.setGeometry(QtCore.QRect(10, 70, 760, 634))
+        self.scrollArea.setMinimumSize(QtCore.QSize(760, 0))
+        self.scrollArea.setMaximumSize(QtCore.QSize(760, 634))
+        self.scrollArea.setStyleSheet("border: none;\n"
+"")
+        self.scrollArea.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
+        self.scrollArea.setWidgetResizable(True)
+        self.scrollArea.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
+        self.scrollArea.setObjectName("scrollArea")
+        self.scrollAreaWidgetContents_2 = QtWidgets.QWidget()
+        self.scrollAreaWidgetContents_2.setGeometry(QtCore.QRect(0, 0, 743, 7973))
+        self.scrollAreaWidgetContents_2.setObjectName("scrollAreaWidgetContents_2")
+        self.gridLayout_2 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_2)
+        self.gridLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_2.setSpacing(0)
+        self.gridLayout_2.setObjectName("gridLayout_2")
+        self.label_21 = QtWidgets.QLabel(self.scrollAreaWidgetContents_2)
+        self.label_21.setText("")
+        self.label_21.setPixmap(QtGui.QPixmap("learn.javascript.ru_function-expressions.jpg"))
+        self.label_21.setObjectName("label_21")
+        self.gridLayout_2.addWidget(self.label_21, 0, 0, 1, 1)
+        self.scrollArea.setWidget(self.scrollAreaWidgetContents_2)
+        Js_2_13.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(Js_2_13)
+        QtCore.QMetaObject.connectSlotsByName(Js_2_13)
+
+    def retranslateUi(self, Js_2_13):
+        _translate = QtCore.QCoreApplication.translate
+        Js_2_13.setWindowTitle(_translate("Js_2_13", "MainWindow"))
+        self.label.setText(_translate("Js_2_13", "<h2>Function Expression\n"
+"</h2>"))
+
+    def open_Js_window(self, event, Js_2_13):
+      self.main_window = QtWidgets.QMainWindow()
+      self.ui = Ui_JsWindow()
+      self.ui.setupUi(self.main_window)
+      self.main_window.show()
+      Js_2_13.close()
+
+
+class Ui_Js_2_14(object):
+    def setupUi(self, Js_2_14):
+        Js_2_14.setObjectName("Js_2_14")
+        Js_2_14.resize(770, 700)
+        Js_2_14.setMinimumSize(QtCore.QSize(770, 700))
+        Js_2_14.setMaximumSize(QtCore.QSize(770, 700))
+        Js_2_14.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.centralwidget = QtWidgets.QWidget(Js_2_14)
+        self.centralwidget.setObjectName("centralwidget")
+        self.logo = QtWidgets.QLabel(self.centralwidget)
+        self.logo.setGeometry(QtCore.QRect(9, 9, 40, 40))
+        self.logo.setMinimumSize(QtCore.QSize(40, 40))
+        self.logo.setMaximumSize(QtCore.QSize(40, 40))
+        self.logo.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.logo.setStyleSheet("QLabel{\n"
+"border-radius: 8px;\n"
+"teax-align:center;\n"
+"background-color:#f16a30;\n"
+"}\n"
+"QLabel:hover{\n"
+"    background-color: #f0dc55;\n"
+"}")
+        self.logo.setText("")
+        self.logo.setPixmap(QtGui.QPixmap("arrow.svg"))
+        self.logo.setAlignment(QtCore.Qt.AlignCenter)
+        self.logo.setObjectName("logo")
+        self.logo.mousePressEvent = lambda event: self.open_Js_window(event, Js_2_14)
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(70, 9, 531, 41))
+        self.label.setMinimumSize(QtCore.QSize(60, 0))
+        self.label.setMaximumSize(QtCore.QSize(16777215, 16777215))
+        font = QtGui.QFont()
+        font.setPointSize(-1)
+        self.label.setFont(font)
+        self.label.setStyleSheet("font-size: 20px;")
+        self.label.setObjectName("label")
+        self.scrollArea = QtWidgets.QScrollArea(self.centralwidget)
+        self.scrollArea.setGeometry(QtCore.QRect(10, 70, 760, 634))
+        self.scrollArea.setMinimumSize(QtCore.QSize(760, 0))
+        self.scrollArea.setMaximumSize(QtCore.QSize(760, 634))
+        self.scrollArea.setStyleSheet("border: none;\n"
+"")
+        self.scrollArea.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
+        self.scrollArea.setWidgetResizable(True)
+        self.scrollArea.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
+        self.scrollArea.setObjectName("scrollArea")
+        self.scrollAreaWidgetContents_2 = QtWidgets.QWidget()
+        self.scrollAreaWidgetContents_2.setGeometry(QtCore.QRect(0, 0, 743, 2300))
+        self.scrollAreaWidgetContents_2.setObjectName("scrollAreaWidgetContents_2")
+        self.gridLayout_2 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_2)
+        self.gridLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_2.setSpacing(0)
+        self.gridLayout_2.setObjectName("gridLayout_2")
+        self.label_21 = QtWidgets.QLabel(self.scrollAreaWidgetContents_2)
+        self.label_21.setText("")
+        self.label_21.setPixmap(QtGui.QPixmap("learn.javascript.ru_arrow-functions-basics.jpg"))
+        self.label_21.setObjectName("label_21")
+        self.gridLayout_2.addWidget(self.label_21, 0, 0, 1, 1)
+        self.scrollArea.setWidget(self.scrollAreaWidgetContents_2)
+        Js_2_14.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(Js_2_14)
+        QtCore.QMetaObject.connectSlotsByName(Js_2_14)
+
+    def retranslateUi(self, Js_2_14):
+        _translate = QtCore.QCoreApplication.translate
+        Js_2_14.setWindowTitle(_translate("Js_2_14", "MainWindow"))
+        self.label.setText(_translate("Js_2_14", "<h2>\n"
+"Стрелочные функции, основы\n"
+"\n"
+"\n"
+"</h2>"))
+
+    def open_Js_window(self, event, Js_2_14):
+      self.main_window = QtWidgets.QMainWindow()
+      self.ui = Ui_JsWindow()
+      self.ui.setupUi(self.main_window)
+      self.main_window.show()
+      Js_2_14.close()
+
+
+class Ui_Js_2_15(object):
+    def setupUi(self, Js_2_15):
+        Js_2_15.setObjectName("Js_2_15")
+        Js_2_15.resize(770, 700)
+        Js_2_15.setMinimumSize(QtCore.QSize(770, 700))
+        Js_2_15.setMaximumSize(QtCore.QSize(770, 700))
+        Js_2_15.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.centralwidget = QtWidgets.QWidget(Js_2_15)
+        self.centralwidget.setObjectName("centralwidget")
+        self.logo = QtWidgets.QLabel(self.centralwidget)
+        self.logo.setGeometry(QtCore.QRect(9, 9, 40, 40))
+        self.logo.setMinimumSize(QtCore.QSize(40, 40))
+        self.logo.setMaximumSize(QtCore.QSize(40, 40))
+        self.logo.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.logo.setStyleSheet("QLabel{\n"
+"border-radius: 8px;\n"
+"teax-align:center;\n"
+"background-color:#f16a30;\n"
+"}\n"
+"QLabel:hover{\n"
+"    background-color: #f0dc55;\n"
+"}")
+        self.logo.setText("")
+        self.logo.setPixmap(QtGui.QPixmap("arrow.svg"))
+        self.logo.setAlignment(QtCore.Qt.AlignCenter)
+        self.logo.setObjectName("logo")
+        self.logo.mousePressEvent = lambda event: self.open_Js_window(event, Js_2_15)
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(70, 9, 621, 41))
+        self.label.setMinimumSize(QtCore.QSize(60, 0))
+        self.label.setMaximumSize(QtCore.QSize(16777215, 16777215))
+        font = QtGui.QFont()
+        font.setPointSize(-1)
+        self.label.setFont(font)
+        self.label.setStyleSheet("font-size: 20px;")
+        self.label.setObjectName("label")
+        self.scrollArea = QtWidgets.QScrollArea(self.centralwidget)
+        self.scrollArea.setGeometry(QtCore.QRect(10, 70, 760, 634))
+        self.scrollArea.setMinimumSize(QtCore.QSize(760, 0))
+        self.scrollArea.setMaximumSize(QtCore.QSize(760, 634))
+        self.scrollArea.setStyleSheet("border: none;\n"
+"")
+        self.scrollArea.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
+        self.scrollArea.setWidgetResizable(True)
+        self.scrollArea.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
+        self.scrollArea.setObjectName("scrollArea")
+        self.scrollAreaWidgetContents_2 = QtWidgets.QWidget()
+        self.scrollAreaWidgetContents_2.setGeometry(QtCore.QRect(0, 0, 743, 2453))
+        self.scrollAreaWidgetContents_2.setObjectName("scrollAreaWidgetContents_2")
+        self.gridLayout_2 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_2)
+        self.gridLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_2.setSpacing(0)
+        self.gridLayout_2.setObjectName("gridLayout_2")
+        self.label_21 = QtWidgets.QLabel(self.scrollAreaWidgetContents_2)
+        self.label_21.setText("")
+        self.label_21.setPixmap(QtGui.QPixmap("learn.javascript.ru_alert-prompt-confirm.jpg"))
+        self.label_21.setObjectName("label_21")
+        self.gridLayout_2.addWidget(self.label_21, 0, 0, 1, 1)
+        self.scrollArea.setWidget(self.scrollAreaWidgetContents_2)
+        Js_2_15.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(Js_2_15)
+        QtCore.QMetaObject.connectSlotsByName(Js_2_15)
+
+    def retranslateUi(self, Js_2_15):
+        _translate = QtCore.QCoreApplication.translate
+        Js_2_15.setWindowTitle(_translate("Js_2_15", "MainWindow"))
+        self.label.setText(_translate("Js_2_15", "<h2>\n"
+"Взаимодействие: alert, prompt, confirm\n"
+"</h2>"))
+
+    def open_Js_window(self, event, Js_2_15):
+      self.main_window = QtWidgets.QMainWindow()
+      self.ui = Ui_JsWindow()
+      self.ui.setupUi(self.main_window)
+      self.main_window.show()
+      Js_2_15.close()
+
+
+class Ui_Js_2_16(object):
+    def setupUi(self, Js_2_16):
+        Js_2_16.setObjectName("Js_2_16")
+        Js_2_16.resize(770, 700)
+        Js_2_16.setMinimumSize(QtCore.QSize(770, 700))
+        Js_2_16.setMaximumSize(QtCore.QSize(770, 700))
+        Js_2_16.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.centralwidget = QtWidgets.QWidget(Js_2_16)
+        self.centralwidget.setObjectName("centralwidget")
+        self.logo = QtWidgets.QLabel(self.centralwidget)
+        self.logo.setGeometry(QtCore.QRect(9, 9, 40, 40))
+        self.logo.setMinimumSize(QtCore.QSize(40, 40))
+        self.logo.setMaximumSize(QtCore.QSize(40, 40))
+        self.logo.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.logo.setStyleSheet("QLabel{\n"
+"border-radius: 8px;\n"
+"teax-align:center;\n"
+"background-color:#f16a30;\n"
+"}\n"
+"QLabel:hover{\n"
+"    background-color: #f0dc55;\n"
+"}")
+        self.logo.setText("")
+        self.logo.setPixmap(QtGui.QPixmap("arrow.svg"))
+        self.logo.setAlignment(QtCore.Qt.AlignCenter)
+        self.logo.setObjectName("logo")
+        self.logo.mousePressEvent = lambda event: self.open_Js_window(event, Js_2_16)
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(70, 9, 621, 41))
+        self.label.setMinimumSize(QtCore.QSize(60, 0))
+        self.label.setMaximumSize(QtCore.QSize(16777215, 16777215))
+        font = QtGui.QFont()
+        font.setPointSize(-1)
+        self.label.setFont(font)
+        self.label.setStyleSheet("font-size: 20px;")
+        self.label.setObjectName("label")
+        self.scrollArea = QtWidgets.QScrollArea(self.centralwidget)
+        self.scrollArea.setGeometry(QtCore.QRect(10, 70, 760, 634))
+        self.scrollArea.setMinimumSize(QtCore.QSize(760, 0))
+        self.scrollArea.setMaximumSize(QtCore.QSize(760, 634))
+        self.scrollArea.setStyleSheet("border: none;\n"
+"")
+        self.scrollArea.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
+        self.scrollArea.setWidgetResizable(True)
+        self.scrollArea.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
+        self.scrollArea.setObjectName("scrollArea")
+        self.scrollAreaWidgetContents_2 = QtWidgets.QWidget()
+        self.scrollAreaWidgetContents_2.setGeometry(QtCore.QRect(0, 0, 743, 11852))
+        self.scrollAreaWidgetContents_2.setObjectName("scrollAreaWidgetContents_2")
+        self.gridLayout_2 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_2)
+        self.gridLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_2.setSpacing(0)
+        self.gridLayout_2.setObjectName("gridLayout_2")
+        self.label_21 = QtWidgets.QLabel(self.scrollAreaWidgetContents_2)
+        self.label_21.setText("")
+        self.label_21.setPixmap(QtGui.QPixmap("learn.javascript.ru_object.jpg"))
+        self.label_21.setObjectName("label_21")
+        self.gridLayout_2.addWidget(self.label_21, 0, 0, 1, 1)
+        self.scrollArea.setWidget(self.scrollAreaWidgetContents_2)
+        Js_2_16.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(Js_2_16)
+        QtCore.QMetaObject.connectSlotsByName(Js_2_16)
+
+    def retranslateUi(self, Js_2_16):
+        _translate = QtCore.QCoreApplication.translate
+        Js_2_16.setWindowTitle(_translate("Js_2_16", "MainWindow"))
+        self.label.setText(_translate("Js_2_16", "<h2>\n"
+"Объекты\n"
+"</h2>"))
+
+    def open_Js_window(self, event, Js_2_16):
+      self.main_window = QtWidgets.QMainWindow()
+      self.ui = Ui_JsWindow()
+      self.ui.setupUi(self.main_window)
+      self.main_window.show()
+      Js_2_16.close()
+
+
+class Ui_Js_2_17(object):
+    def setupUi(self, Js_2_17):
+        Js_2_17.setObjectName("Js_2_17")
+        Js_2_17.resize(770, 700)
+        Js_2_17.setMinimumSize(QtCore.QSize(770, 700))
+        Js_2_17.setMaximumSize(QtCore.QSize(770, 700))
+        Js_2_17.setStyleSheet("background-color: rgb(255, 255, 255);")
+        self.centralwidget = QtWidgets.QWidget(Js_2_17)
+        self.centralwidget.setObjectName("centralwidget")
+        self.logo = QtWidgets.QLabel(self.centralwidget)
+        self.logo.setGeometry(QtCore.QRect(9, 9, 40, 40))
+        self.logo.setMinimumSize(QtCore.QSize(40, 40))
+        self.logo.setMaximumSize(QtCore.QSize(40, 40))
+        self.logo.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.logo.setStyleSheet("QLabel{\n"
+"border-radius: 8px;\n"
+"teax-align:center;\n"
+"background-color:#f16a30;\n"
+"}\n"
+"QLabel:hover{\n"
+"    background-color: #f0dc55;\n"
+"}")
+        self.logo.setText("")
+        self.logo.setPixmap(QtGui.QPixmap("arrow.svg"))
+        self.logo.setAlignment(QtCore.Qt.AlignCenter)
+        self.logo.setObjectName("logo")
+        self.logo.mousePressEvent = lambda event: self.open_Js_window(event, Js_2_17)
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(70, 9, 621, 41))
+        self.label.setMinimumSize(QtCore.QSize(60, 0))
+        self.label.setMaximumSize(QtCore.QSize(16777215, 16777215))
+        font = QtGui.QFont()
+        font.setPointSize(-1)
+        self.label.setFont(font)
+        self.label.setStyleSheet("font-size: 20px;")
+        self.label.setObjectName("label")
+        self.scrollArea = QtWidgets.QScrollArea(self.centralwidget)
+        self.scrollArea.setGeometry(QtCore.QRect(10, 70, 760, 634))
+        self.scrollArea.setMinimumSize(QtCore.QSize(760, 0))
+        self.scrollArea.setMaximumSize(QtCore.QSize(760, 634))
+        self.scrollArea.setStyleSheet("border: none;\n"
+"")
+        self.scrollArea.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarAlwaysOff)
+        self.scrollArea.setWidgetResizable(True)
+        self.scrollArea.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
+        self.scrollArea.setObjectName("scrollArea")
+        self.scrollAreaWidgetContents_2 = QtWidgets.QWidget()
+        self.scrollAreaWidgetContents_2.setGeometry(QtCore.QRect(0, 0, 743, 6080))
+        self.scrollAreaWidgetContents_2.setObjectName("scrollAreaWidgetContents_2")
+        self.gridLayout_2 = QtWidgets.QGridLayout(self.scrollAreaWidgetContents_2)
+        self.gridLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout_2.setSpacing(0)
+        self.gridLayout_2.setObjectName("gridLayout_2")
+        self.label_21 = QtWidgets.QLabel(self.scrollAreaWidgetContents_2)
+        self.label_21.setText("")
+        self.label_21.setPixmap(QtGui.QPixmap("learn.javascript.ru_javascript-specials.jpg"))
+        self.label_21.setObjectName("label_21")
+        self.gridLayout_2.addWidget(self.label_21, 0, 0, 1, 1)
+        self.scrollArea.setWidget(self.scrollAreaWidgetContents_2)
+        Js_2_17.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(Js_2_17)
+        QtCore.QMetaObject.connectSlotsByName(Js_2_17)
+
+    def retranslateUi(self, Js_2_17):
+        _translate = QtCore.QCoreApplication.translate
+        Js_2_17.setWindowTitle(_translate("Js_2_17", "MainWindow"))
+        self.label.setText(_translate("Js_2_17", "<h2>\n"
+"Особенности JavaScript\n"
+"</h2>"))
+
+    def open_Js_window(self, event, Js_2_17):
+      self.main_window = QtWidgets.QMainWindow()
+      self.ui = Ui_JsWindow()
+      self.ui.setupUi(self.main_window)
+      self.main_window.show()
+      Js_2_17.close()
+
+
 
 
 
